@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="89d17499ea4d4484820f163f0f34b501" Name="Diagram1">
+        <EntityTypeShape EntityType="TesztModel.Currency" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TesztModel.CurrencyT" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TesztModel.Customers" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TesztModel.Orders" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TesztModel.Payment" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TesztModel.Products" Width="1.5" PointX="3" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TesztModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="TesztModel.FK_Currency_CurrencyT" ManuallyRouted="false" />
+        <AssociationConnector Association="TesztModel.FK_Orders_Currency" ManuallyRouted="false" />
+        <AssociationConnector Association="TesztModel.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="TesztModel.FK_Orders_Payment" ManuallyRouted="false" />
+        <AssociationConnector Association="TesztModel.FK_Orders_Products" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
